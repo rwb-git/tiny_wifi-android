@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/logs_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        >
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:id="@+id/espscrl"
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+
+        android:layout_weight="70"
+        >
+        <TextView
+            android:id="@+id/esptxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+
+            android:paddingLeft="20dp"
+            />
+
+    </ScrollView>
+    <!--
+     android:layout_margin="20dp"
+     margin is outside the view. padding is inside the view. view with contrasting background makes it easy to see -->
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        >
+
+
+        <Button
+            android:id="@+id/get_status"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="18"
+            android:text="send"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
