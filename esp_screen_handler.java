@@ -1,4 +1,4 @@
-package your package goes here .tiny_wifi;
+package your_package.tiny_wifi;
 
 import android.os.Handler;
 import android.os.Message;
