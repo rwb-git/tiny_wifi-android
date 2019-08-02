@@ -15,7 +15,7 @@
 */
 
 
-package xyz.fork20.mine.tiny_wifi;
+package your package goes here .tiny_wifi;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
